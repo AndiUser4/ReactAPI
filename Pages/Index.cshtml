@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h2 class="display-4">Brolink's Dog Store</h2>
+    <h3 class="display-4">Get a dog and win a friend...</h3>
+</div>
+
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <form method="get">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" name="searchTitle" placeholder="Search by title" value="@Request.Query["searchTitle"]" />
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="card-columns">
+    @foreach (var product in Model.Products.Where(p => string.IsNullOrEmpty(Request.Query["searchTitle"]) || p.Title.Contains(Request.Query["searchTitle"], StringComparison.OrdinalIgnoreCase)))
+    {
+        <div class="card">
+            <div class="card-img" style="background-image: url('@product.Image');"></div>
+            <div class="card-body">
+                <h5 class="card-title">@product.Title</h5>
+            </div>
+        </div>
+    }
+</div>
+
+<p>To see more of these <a href="https://api.thedogapi.com/v1/images/search"> Brolink Dog API's'</a>..Click and Copy http to the URL and see more cool dog API's</p>

@@ -1,0 +1,77 @@
+[
+  {
+    "Id": "jenlooper-cactus",
+    "Maker": "@jenlooper",
+    "img": "https://cdn2.thedogapi.com/images/aJ6N5Kf-l.jpg",
+    "Url": "https://cdn2.thedogapi.com/images/aJ6N5Kf-l.jpg",
+    "Title": "Max",
+    "Ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "Id": "jenlooper-light",
+    "Maker": "jenlooper",
+    "img": "https://cdn2.thedogapi.com/images/W93JBCUzz.jpg",
+    "Url": "https://cdn2.thedogapi.com/images/W93JBCUzz.jpg",
+    "Title": "Jake",
+    "Ratings": null
+  },
+  {
+    "Id": "jenlooper-lightshow",
+    "Maker": "@jenlooper",
+    "img": "https://cdn2.thedogapi.com/images/8ogZCsDcp.jpg",
+    "Url": "https://cdn2.thedogapi.com/images/8ogZCsDcp.jpg",
+    "Title": "Buddy",
+    "Ratings": null
+  },
+  {
+    "Id": "jenlooper-survival",
+    "Maker": "jenlooper",
+    "img": "https://cdn2.thedogapi.com/images/B13bEapEX.gif",
+    "Url": "https://cdn2.thedogapi.com/images/B13bEapEX.gif",
+    "Title": "Maggie",
+    "Ratings": null
+  },
+  {
+    "Id": "sailorhg-bubblesortpic",
+    "Maker": "sailorhg",
+    "img": "https://cdn2.thedogapi.com/images/ryZb6D6NQ.gif",
+    "Url": "https://cdn2.thedogapi.com/images/ryZb6D6NQ.gif",
+    "Title": "Molly",
+    "Ratings": null
+  },
+  {
+    "Id": "Z8LiOtceX",
+    "Maker": "sailorhg",
+    "img": "https://cdn2.thedogapi.com/images/Z8LiOtceX.jpg",
+    "Url": "https://cdn2.thedogapi.com/images/Z8LiOtceX.jpg",
+    "Title": "Lumpy",
+    "Ratings": null
+  },
+  {
+    "Id": "sailorhg-kit",
+    "Maker": "sailorhg",
+    "img": "https://cdn2.thedogapi.com/images/S1_8kx5Nm_1280.jpg",
+    "Url": "https://cdn2.thedogapi.com/images/S1_8kx5Nm_1280.jpg",
+    "Title": "Bailey",
+    "Ratings": null
+  },
+  {
+    "Id": "sailorhg-led",
+    "Maker": "sailorhg",
+    "img": "https://cdn2.thedogapi.com/images/a4dzJ1h49.jpg",
+    "Url": "https://cdn2.thedogapi.com/images/a4dzJ1h49.jpg",
+    "Title": "Shadow & Shelly",
+    "Ratings": null
+  },
+  {
+    "Id": "selinazawacki-soi-shirt",
+    "Maker": "selinazawacki",
+    "img": "https://cdn2.thedogapi.com/images/H1QyMe5EQ_1280.jpg",
+    "Url": "https://cdn2.thedogapi.com/images/H1QyMe5EQ_1280.jpg",
+    "Title": "Sam",
+    "Ratings": null
+  }
+]
